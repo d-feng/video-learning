@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Storage (large files / generated data)
+storage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db

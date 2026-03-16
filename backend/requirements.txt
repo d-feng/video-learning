@@ -1,0 +1,24 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+aiofiles>=23.2.1
+websockets>=12.0
+
+# Video / audio
+opencv-python>=4.9.0
+Pillow>=10.3.0
+
+# AI
+openai>=1.25.0
+
+# Vector DB (local, no cloud needed)
+chromadb>=0.5.0
+
+# Lightweight metadata store
+tinydb>=4.8.0
+
+# Video URL download (YouTube, etc.)
+yt-dlp>=2024.5.1
+
+# Utilities
+python-dotenv>=1.0.1
