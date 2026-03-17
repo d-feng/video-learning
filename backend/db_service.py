@@ -171,6 +171,7 @@ class DBService:
         return {
             "segments_in_db": len(segs),
             "vectors_in_chroma": vector_count,
+            "embeddings_ready": vector_count > 0,
             "instructions_saved": instructions is not None,
             "instruction_steps": step_count,
             "total_vectors_all_videos": chroma_count,

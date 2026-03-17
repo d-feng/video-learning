@@ -4,6 +4,10 @@
 # Storage (large files / generated data)
 storage/
 
+# Test output — raw frame-by-frame JSON (large, regeneratable)
+test/gemini_all_frames/
+test/gemini_wechat_analysis/
+
 # Python
 __pycache__/
 *.py[cod]

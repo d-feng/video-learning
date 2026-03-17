@@ -1,0 +1,653 @@
+{
+  "video_name": "WeChat_20260317004736.mp4",
+  "total_frames": 449,
+  "duration": 598.69,
+  "top_concepts": [
+    [
+      "HVAC load calculation",
+      164
+    ],
+    [
+      "HVAC system design",
+      151
+    ],
+    [
+      "Psychrometrics",
+      147
+    ],
+    [
+      "Relative humidity",
+      62
+    ],
+    [
+      "Design conditions (temperature, humidity)",
+      51
+    ],
+    [
+      "Air volume calculation (supply, return, fresh air)",
+      42
+    ],
+    [
+      "Psychrometric chart analysis",
+      41
+    ],
+    [
+      "HVAC Load Calculation",
+      39
+    ],
+    [
+      "Return air volume (回风量)",
+      35
+    ],
+    [
+      "Air Handling Unit (AHU) components and sequence",
+      35
+    ],
+    [
+      "Supply air volume (送风量)",
+      34
+    ],
+    [
+      "Load calculation",
+      34
+    ],
+    [
+      "CAD drafting for HVAC layouts",
+      28
+    ],
+    [
+      "Fresh air volume (新风量)",
+      28
+    ],
+    [
+      "Spreadsheet-based engineering calculations",
+      27
+    ],
+    [
+      "Air balance",
+      27
+    ],
+    [
+      "Air Handling Unit (AHU) components",
+      27
+    ],
+    [
+      "Dry bulb temperature",
+      27
+    ],
+    [
+      "Dry-bulb temperature",
+      27
+    ],
+    [
+      "Air volume calculation",
+      26
+    ],
+    [
+      "Design conditions (temperature, relative humidity)",
+      26
+    ],
+    [
+      "Air Handling Unit (AHU) operation",
+      26
+    ],
+    [
+      "Wet-bulb temperature",
+      24
+    ],
+    [
+      "Latent heat",
+      23
+    ],
+    [
+      "Wet bulb temperature",
+      23
+    ],
+    [
+      "Sensible heat",
+      22
+    ],
+    [
+      "Return air volume",
+      21
+    ],
+    [
+      "Building load calculation",
+      20
+    ],
+    [
+      "Fresh air volume",
+      20
+    ],
+    [
+      "Supply air volume",
+      20
+    ]
+  ],
+  "top_text": [
+    [
+      "负荷计算",
+      517
+    ],
+    [
+      "2022/9/1",
+      392
+    ],
+    [
+      "回风量",
+      342
+    ],
+    [
+      "新风量",
+      331
+    ],
+    [
+      "送风量",
+      327
+    ],
+    [
+      "比例 1:100",
+      315
+    ],
+    [
+      "H1",
+      297
+    ],
+    [
+      "AutoCAD 经典",
+      294
+    ],
+    [
+      "相对湿度",
+      292
+    ],
+    [
+      "文件(F)",
+      290
+    ],
+    [
+      "Sheet3",
+      279
+    ],
+    [
+      "5A",
+      268
+    ],
+    [
+      "编辑(E)",
+      255
+    ],
+    [
+      "插入",
+      253
+    ],
+    [
+      "设计温度",
+      249
+    ],
+    [
+      "视图",
+      248
+    ],
+    [
+      "工具(T)",
+      248
+    ],
+    [
+      "视图(V)",
+      243
+    ],
+    [
+      "插入(I)",
+      238
+    ],
+    [
+      "帮助(H)",
+      238
+    ],
+    [
+      "格式(O)",
+      235
+    ],
+    [
+      "项目地点",
+      234
+    ],
+    [
+      "开始",
+      233
+    ],
+    [
+      "田工净化空调设计私房课",
+      232
+    ],
+    [
+      "中间值",
+      227
+    ],
+    [
+      "新风",
+      225
+    ],
+    [
+      "上海",
+      221
+    ],
+    [
+      "标注(N)",
+      217
+    ],
+    [
+      "数据",
+      216
+    ],
+    [
+      "修改(M)",
+      216
+    ],
+    [
+      "专业标注",
+      214
+    ],
+    [
+      "尺寸标注",
+      214
+    ],
+    [
+      "文字表格",
+      213
+    ],
+    [
+      "符号标注",
+      213
+    ],
+    [
+      "23±1",
+      213
+    ],
+    [
+      "审阅",
+      211
+    ],
+    [
+      "回风",
+      210
+    ],
+    [
+      "55±5%",
+      208
+    ],
+    [
+      "在线购买",
+      207
+    ],
+    [
+      "页面布局",
+      207
+    ],
+    [
+      "开发工具",
+      203
+    ],
+    [
+      "绘图工具",
+      202
+    ],
+    [
+      "防排烟",
+      201
+    ],
+    [
+      "计算",
+      199
+    ],
+    [
+      "O-送风点",
+      199
+    ],
+    [
+      "公式",
+      198
+    ],
+    [
+      "风管设备",
+      197
+    ],
+    [
+      "图库图层",
+      197
+    ],
+    [
+      "THVAC P...",
+      197
+    ],
+    [
+      "帮助",
+      194
+    ],
+    [
+      "夏季",
+      194
+    ],
+    [
+      "特色应用",
+      192
+    ],
+    [
+      "水管工具",
+      190
+    ],
+    [
+      "送风",
+      190
+    ],
+    [
+      "55%",
+      189
+    ],
+    [
+      "文件布图",
+      187
+    ],
+    [
+      "多联机",
+      179
+    ],
+    [
+      "N-室内点",
+      174
+    ],
+    [
+      "剪切",
+      171
+    ],
+    [
+      "2.6",
+      171
+    ]
+  ],
+  "timeline": [
+    {
+      "t": 0,
+      "transcript": "Hello everyone. Welcome to this video tutorial. I am Tian Gong, the main speaker for this lesson.",
+      "description": "The frame displays a split-screen view of a Windows desktop. On the left, a dark-themed AutoCAD window shows a detailed floor plan, likely of a commer",
+      "key_concepts": [
+        "HVAC system design",
+        "Computer-aided design (CAD)",
+        "Architectural floor plans",
+        "Room data sheets"
+      ],
+      "scene_type": "overview"
+    },
+    {
+      "t": 31,
+      "transcript": "Let's take our calculated air volume and do what? Sum it up. First, let's calculate the sum of what? The sum of our...",
+      "description": "The video frame displays a split-screen view, with an AutoCAD architectural floor plan on the left side and a Microsoft Excel spreadsheet on the right",
+      "key_concepts": [
+        "HVAC system design",
+        "Air volume calculation",
+        "Supply air (送风量)",
+        "Return air (回风量)"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 61,
+      "transcript": "So, our supply air volume has been calculated, right? Next, we will calculate our return air volume. OK. And then, we wi",
+      "description": "The image displays a computer screen divided into two main sections: on the left, an AutoCAD window shows a detailed floor plan, likely an industrial ",
+      "key_concepts": [
+        "HVAC system design",
+        "Air volume calculation",
+        "Supply air volume (送风量)",
+        "Return air volume (回风量)"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 92,
+      "transcript": "Because our exhaust air volume is very large. OK, good. Then we proceed with our calculation. What is our calculation? F",
+      "description": "The frame displays a split screen, with AutoCAD software on the left showing a detailed floor plan of a building, likely a pharmaceutical production f",
+      "key_concepts": [
+        "HVAC system design",
+        "Air volume calculation",
+        "Air change rate (ACH)",
+        "Cleanroom classification (洁净等级)"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 123,
+      "transcript": "OK, good. Then let's continue with our return air volume and fresh air volume, right?",
+      "description": "The frame shows a split-screen view of a desktop, primarily displaying an AutoCAD architectural drawing on the left and a Microsoft Excel spreadsheet ",
+      "key_concepts": [
+        "HVAC design calculations",
+        "Return air volume (回风量)",
+        "Fresh air volume (新风量)",
+        "Exhaust air volume (排风量)"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 154,
+      "transcript": "Cubic meters per hour, right? Okay. Then, the supply air volume is forty-eight thousand, return air volume, how much do ",
+      "description": "The frame displays a split-screen view, with an AutoCAD architectural floor plan on the left showing a detailed building layout, likely for a pharmace",
+      "key_concepts": [
+        "HVAC air volume calculation",
+        "Supply air volume (SAV)",
+        "Return air volume (RAV)",
+        "Fresh air volume (FAV)"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 184,
+      "transcript": "We have already calculated, right? Okay, next, we will proceed with our compound calculation. Let's rename the compound ",
+      "description": "The frame displays a split-screen view, with AutoCAD on the left showing HVAC design conditions and a CAD drawing interface, and Microsoft Excel on th",
+      "key_concepts": [
+        "HVAC system design conditions",
+        "Air volume calculation (supply, return, fresh air)",
+        "Clean room design (Class 100,000)",
+        "Load calculation (heating, cooling, humidification)"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 215,
+      "transcript": "Supply air volume. The second one is our return air volume. We need to write down the basic parameters. Okay, and then i",
+      "description": "The frame displays a computer screen split between two applications: AutoCAD on the left showing a blank dark canvas with a detailed design conditions",
+      "key_concepts": [
+        "HVAC design parameters",
+        "Cleanroom classification (Class 100,000)",
+        "Air volume calculation (supply air, return air, fresh air)",
+        "Temperature and humidity control in HVAC systems"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 246,
+      "transcript": "OK good. What does return air equal? Our room's return air. Fresh air equals our room's fresh air.",
+      "description": "The frame displays a split-screen view, with a dark-themed AutoCAD interface on the left showing a detailed architectural or HVAC floor plan layout, p",
+      "key_concepts": [
+        "HVAC load calculation",
+        "Air volume determination (supply air, return air, fresh air)",
+        "Indoor design conditions (temperature, relative humidity)",
+        "Building layout and zoning in CAD"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 277,
+      "transcript": "Here we see our requirement, how much? 23 degrees Celsius, plus or minus one, right? Okay, we'll insert a symbol.",
+      "description": "The frame displays a split-screen view, with a complex AutoCAD drawing of a building floor plan on the left, likely for an HVAC layout. The right side",
+      "key_concepts": [
+        "HVAC Load Calculation",
+        "Air Volume Calculation (Supply, Return, Fresh Air)",
+        "Design Conditions (Temperature, Relative Humidity)",
+        "Psychrometrics"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 307,
+      "transcript": "OK, we'll make a copy of this. How much is our 55% plus or minus, right?",
+      "description": "The frame displays a split screen view primarily showing two main applications: AutoCAD on the left and a spreadsheet program (likely WPS Office, simi",
+      "key_concepts": [
+        "HVAC system design",
+        "Air Handling Unit (AHU) components and sequence",
+        "Psychrometrics and psychrometric chart analysis (summer and winter conditions)",
+        "HVAC load calculation"
+      ],
+      "scene_type": "calculation"
+    },
+    {
+      "t": 338,
+      "transcript": "When we do design, we need to choose an intermediate value. There is an accurate value. OK, we'll take 23 degrees, and r",
+      "description": "The screen displays multiple applications, primarily AutoCAD on the left showing a detailed floor plan, and Microsoft Excel on the right. The Excel sh",
+      "key_concepts": [
+        "HVAC Load Calculation",
+        "Psychrometric Chart Analysis",
+        "Air Handling Unit (AHU) Operation",
+        "Summer Air Conditioning Process"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 369,
+      "transcript": "We are using our primary return air system, a primary return air system, OK. Then we import our primary return air syste",
+      "description": "The frame displays a split screen, with an AutoCAD interface on the left showing a detailed floor plan, likely of an industrial facility, and an Excel",
+      "key_concepts": [
+        "Primary Return Air System (一次回风系统)",
+        "HVAC Load Calculation (负荷计算)",
+        "Psychrometrics (湿空气图)",
+        "Air Handling Unit (AHU) components and sequence (空调机组)"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 400,
+      "transcript": "This is what we often talk about in our live broadcasts. Okay, then let's first look at our summer... Can we calculate i",
+      "description": "The frame displays an HVAC engineering software interface, specifically focusing on a 'Meteorological Parameter Management' dialog box. On the left, a",
+      "key_concepts": [
+        "HVAC load calculation",
+        "Meteorological design parameters",
+        "Summer design conditions (dry-bulb, wet-bulb, average temperature, humidity, wind speed, atmospheric pressure)",
+        "Winter design conditions (dry-bulb, average temperature, humidity, wind speed, atmospheric pressure)"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 430,
+      "transcript": "Let's look at which state points we have, classmates. Our state points include the outdoor point and the indoor point. I",
+      "description": "The frame displays a split-screen view with an AutoCAD interface on the left and an Excel spreadsheet on the right, overlaid with a lecturer's video f",
+      "key_concepts": [
+        "Psychrometric chart analysis",
+        "Air Handling Unit (AHU) operation",
+        "HVAC load calculation",
+        "Air conditioning processes (cooling, dehumidification, heating)"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 461,
+      "transcript": "Then, after passing through our cooling coil (表冷断), it gets cooled down to what? To our treatment point (处理点). OK. What ",
+      "description": "The frame displays a split-screen view of a technical presentation, with AutoCAD software on the left, largely showing a blank drawing area, and an Ex",
+      "key_concepts": [
+        "HVAC load calculation",
+        "Psychrometrics",
+        "Air Handling Unit (AHU) design",
+        "Cooling coil (dehumidification)"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 492,
+      "transcript": "Heated to what? Heated to our treatment point. Okay, the temperature of the air after heating can be processed. Then, it",
+      "description": "The screen displays a multi-pane interface for HVAC design and analysis. On the left, an AutoCAD window shows a detailed psychrometric chart with a re",
+      "key_concepts": [
+        "Psychrometrics",
+        "Air Handling Unit (AHU) components",
+        "HVAC load calculation",
+        "Supply air volume (送风量)"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 523,
+      "transcript": "Let's also input the state point names. Okay, the second point is our indoor point, what kind of point is it? It is our ",
+      "description": "The frame displays a split-screen view: the left side shows an AutoCAD interface with a detailed psychrometric chart and an accompanying smaller circu",
+      "key_concepts": [
+        "Psychrometric chart analysis",
+        "Air handling processes (cooling, dehumidification, mixing, heating)",
+        "HVAC load calculation parameters",
+        "Air Handling Unit (AHU) components and sequence"
+      ],
+      "scene_type": "demo"
+    },
+    {
+      "t": 553,
+      "transcript": "And then, that's our supply air state point, right? What point is the supply air point? The O point. Okay, classmates, n",
+      "description": "The frame displays a split-screen view of HVAC engineering software. On the left is an AutoCAD interface showing a detailed psychrometric chart (湿空气焓湿",
+      "key_concepts": [
+        "Psychrometrics",
+        "Air Handling Unit (AHU) components and sequence",
+        "HVAC load calculation",
+        "Air state points (supply air, return air, outdoor air, mixed air, room air)"
+      ],
+      "scene_type": "overview"
+    },
+    {
+      "t": 584,
+      "transcript": "Let's look at one of his outdoor parameters. We select the city, and then for the standard, we choose the 'Design Code f",
+      "description": "The frame displays a multi-window desktop environment, primarily showing an AutoCAD drawing interface on the left and a Microsoft Excel spreadsheet on",
+      "key_concepts": [
+        "HVAC load calculation",
+        "Psychrometric chart analysis",
+        "Air handling unit (AHU) components and processes",
+        "Supply air volume (SAV)"
+      ],
+      "scene_type": "demo"
+    }
+  ],
+  "tech_details": [
+    "The Excel spreadsheet displays specific air volumes for various rooms and functions. For instance: '制冷' (cooling) has a return air volume of 275 and a supply air volume of 69; '小走廊' (small corridor) has 349 return air and 87 supply air, designated H1 zone; '燃料' (fuel) shows 727 return air and 182 supply air, H2 zone; '模具存放' (mold storage) with 465 return air and 116 supply air, H3 zone. Total return and supply air volumes for zones like H3 are also shown, with 2933 for one entry and 4485 for another. The '高效数量' (high-efficiency quantity) column likely refers to a count of high-efficiency equipment or components within each room. The '回风口规格' and '排风口' columns specify the types of return and exhaust air outlets, often categorized by zone (H1, H2, H3). These values are critical for balancing ventilation and meeting cooling/heating loads in different zones.",
+    "The Excel spreadsheet, titled '片剂生产车间计算书.xls' (Tablet Production Workshop Calculation Sheet), indicates a focus on HVAC design for a pharmaceutical manufacturing facility, implying strict requirements for air quality and airflow. Key columns in the spreadsheet include '房间编号' (Room Number), '房间名称' (Room Name) listing various production stages like '制浆' (pulping), '配料' (batching), '胶囊充填' (capsule filling), '内包装' (internal packaging), '洁净过道' (clean corridor), and '洗衣' (laundry). Critical HVAC parameters such as '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume) are listed with specific numerical values (e.g., 275, 69, 229, 386, 332, 909, 87, 382, 182, 116, 60, 98, 90, 183, 585, 2933, 4485, 1751, 274, 1115, 516, 514, 158, 113, 179, 40, all likely in m³/h or L/s). The '回风口规格' (Return Air Vent Specifications) and '排风口' (Exhaust Air Vent) columns denote vent types (H1, H2, H3), and '高效数量' (High-efficiency quantity) likely refers to high-efficiency filters or other components. The AutoCAD drawing shows a detailed floor plan, which is essential for placing HVAC components, calculating room volumes, and planning ductwork and airflow paths.",
+    "The spreadsheet presents a detailed breakdown of HVAC parameters for various rooms in a 'Tablet Production Workshop Purification Calculation Book'. Key columns include '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (High-efficiency Quantity, likely referring to filters or air handlers), '回风量' (Return Air Volume) in m³/h (implied by common HVAC practice), '回风口规格' (Return Air Outlet Specification, e.g., H1, H2, H3), '回风口数量' (Return Air Outlet Quantity), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific values for air volumes are visible, such as 275 m³/h return air for '制浆' (Pulping), 909 m³/h fresh/exhaust air for '压片' (Tableting), and 730 m³/h return air for '内包装' (Inner Packaging). The CAD drawing provides the spatial context for these calculations, showing the architectural layout where these HVAC elements would be installed.",
+    "The Excel spreadsheet displays critical HVAC parameters for various rooms, including '房间名称' (Room Name) such as '中转' (Transfer), '烘片' (Drying Room), '洗衣' (Laundry), '洁具存放' (Sanitary Ware Storage), '工具存放' (Tool Storage), '前室' (Anteroom), '门厅' (Lobby), '门斗' (Vestibule), '制浆' (Pulping), '化验' (Laboratory), '办公' (Office), '女更衣' (Female Locker Room), '男更衣' (Male Locker Room). Key technical data points include '高效数量' (High-Efficiency Filter Quantity - though the column name suggests quantity, the values are large, implying an air volume or other parameter), '回风量' (Return Air Volume), '回风口规格' (Return Air Terminal Specification, e.g., H1, H2, H3), '回风口数量' (Return Air Terminal Quantity), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Terminal). Values for air volumes range from 0 to over 2000 units (likely m³/h or CFM, though units are not explicitly stated), indicating precise air handling requirements for different zones within what appears to be a facility requiring controlled environments, possibly a cleanroom or industrial building. For instance, '中转' room has a '高效数量' of 2056 and '新风量' of 514, while '洗衣' has '回风量' of 452 and '新风量' of 113. Some rooms show both '新风量' and '排风量' to be equal, implying a balanced ventilation system for those spaces.",
+    "The Excel spreadsheet contains critical HVAC parameters. Column 'J' (高效数量) likely refers to High-Efficiency Quantity. Column 'K' (回风量) lists 'Return Air Volume' values such as 2056, 633, 452, 0, 159, 0, 443, 190, 0, 499, 176, 230, 62, 125, 73, 402, 66, 64, 68, 66, 402, 1084. Column 'L' (回风口规格) indicates 'Return Air Grille Specifications' (e.g., H3, H2, H1). Column 'M' (回风口数量) indicates 'Return Air Grille Quantity'. Column 'N' (新风量) lists 'Fresh Air Volume' values such as 514, 158, 113, 179, 40, 706, 111, 48, 176, 230, 125, 73, 64, 66, 402. Column 'P' (排风量) lists 'Exhaust Air Volume' values such as 179, 706, 499, 176, 230, 402, 64, 66, 402. Column 'Q' (排风口) indicates 'Exhaust Air Grille' specification (e.g., H1, H2). The units for air volumes are not explicitly stated but are typically m³/h or L/s in Chinese HVAC contexts. The CAD drawing shows a building floor plan with what appears to be ductwork and possibly diffuser/grille symbols, indicating an active HVAC system layout.",
+    "The Excel spreadsheet displays critical HVAC parameters for various rooms: '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (Efficient Quantity, possibly related to equipment efficiency or filter efficiency), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification, e.g., H1, H2, H3), '回风口数量' (Return Air Outlet Quantity), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume), '排风口' (Exhaust Air Outlet Specification). Specific values include return air volumes (e.g., 2056, 633, 452 m³/h), fresh air volumes (e.g., 514, 158, 113 m³/h), and exhaust air volumes (e.g., 179, 706, 499 m³/h). The 'H1', 'H2', 'H3' designations likely refer to specific types or sizes of air terminals or diffusers. The AutoCAD drawing displays a detailed floor plan, suggesting the spatial layout for which these calculations are being performed, with a compass indicating North, South, East, West.",
+    "The Excel spreadsheet contains a detailed breakdown of HVAC parameters for various rooms. Columns include '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (Efficiency Quantity/High-Efficiency Filter Count, likely related to clean room classification), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification, e.g., H1, H2, H3), '回风口数量' (Return Air Outlet Quantity), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific air volumes are listed for rooms like '中转' (Transfer Room) with 2056 return air and 514 fresh air, '洗衣' (Laundry) with 179 fresh and 179 exhaust air, '办公' (Office) with 293 return air and 73 fresh air, and '门厅' (Lobby) with 1084 fresh air. Many rooms, such as '洗衣', '洁具存放', and '工具存放', show zero return air volume, implying direct exhaust or 100% fresh air systems. The 'H1', 'H2', 'H3' specifications likely denote different types or sizes of air outlets or diffusers.",
+    "The Excel spreadsheet clearly shows parameters essential for HVAC design, including '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (High-efficiency Quantity, possibly related to equipment), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification, e.g., H1, H2, H3), '回风口数量' (Return Air Outlet Quantity), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific values such as '2056' (possibly m³/h or L/s for air volume), '633', '452' are visible. The AutoCAD drawing displays a complex floor plan, suggesting a multi-room commercial or industrial building, consistent with the detailed room list in Excel (e.g., '中转' - transfer, '洗衣' - laundry, '办公' - office, '制浆' - pulping/milling, '化验' - lab). The instructor mentions '质能量的计算' (mass and energy calculation) and '再热量的计算' (reheat calculation), which are fundamental processes in HVAC to determine cooling/heating loads and energy consumption for maintaining desired indoor conditions, especially in systems requiring precise temperature and humidity control or significant fresh air intake.",
+    "The Excel spreadsheet contains critical data for HVAC design. Columns include '房间编号' (Room ID), '房间名称' (Room Name), '高效数量' (High-efficiency quantity - possibly for filters or specific equipment), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification, e.g., H1, H2, H3), '回风口数量' (Number of Return Air Outlets), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific values for return air volume are visible (e.g., 2056 for '中场', 633 for '晾片', 452 for '洗衣'). Fresh air volumes range from 40 to 706 units, and exhaust air volumes are provided for several rooms, some matching fresh air volumes, indicating balanced ventilation. These values are crucial for sizing air handling units, ducts, and fans to meet room load and ventilation requirements, especially in a 'Tablet Production Workshop' setting, which often implies cleanroom or controlled environment conditions.",
+    "The Excel sheet presents a structured approach to quantifying air movement for different rooms in a building. Columns like '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume) are crucial for HVAC system design, indicating air handling requirements. The values in these columns (e.g., 2056, 633, 514 for return air, 158, 113 for fresh air) are likely in m³/h or L/s, standard units for air flow. '回风口规格' (Return Air Vent Specification) such as 'H3', 'H2', 'H1' likely denote different sizes or types of return air grilles/diffusers, influencing pressure drop and air distribution. The transcript specifically mentions '质能量的计算' (mass-energy calculation or heat/enthalpy load calculation) and '再热量的计算' (reheat calculation). The '高效数量' (High-efficiency quantity) column might relate to the number of high-efficiency filters or specialized air treatment units, common in cleanroom or controlled environments, aligning with the course title '净化空调设计' (purification/cleanroom HVAC design). The CAD drawing provides the spatial context for these calculations, showing the layout of rooms (e.g., '洗衣' - laundry, '洁具存放' - sanitary ware storage, '办公' - office, '门厅' - lobby) to which these air volumes apply.",
+    "The Excel sheet provides a detailed room-by-room breakdown for HVAC parameters. Columns include '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (Efficiency Quantity, possibly related to equipment), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification, e.g., H1, H2, H3 likely referring to sizes/types), '回风口数量' (Number of Return Air Outlets), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific values shown include air volumes such as 2056, 633, 452, 159, 443, 190, 125, 246, 499, 293, 265, 256, 271 for return/exhaust/fresh air in various rooms like '中转' (Transfer/Transit), '暖片' (Heating Panel/Radiator), '洗衣' (Laundry), '洁具存放' (Sanitary Ware Storage), '工具存放' (Tool Storage), '前室' (Anteroom), '门斗' (Vestibule), '制浆' (Pulping), '化验' (Laboratory), '办公' (Office), '女二更' (Female Changing Room 2), '男一更' (Male Changing Room 1), '男二更' (Male Changing Room 2). The units for air volumes are implicitly cubic meters per hour (m³/h), common in Chinese HVAC design. The sheet also shows sums, for instance, a total of 1084 in cell N44, likely a cumulative air volume. The tutorial appears to be focusing on the '质能量计算' (mass and energy calculation) and '再热量计算' (reheat calculation) for these spaces.",
+    "The Excel spreadsheet clearly shows data points crucial for HVAC design, including '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume) for various rooms. For instance, room 23 has 2056 units of return air, room 24 has 633, and room 25 has 452. Fresh air quantities range from 40 to 706 units, and exhaust air from 179 to 706 units. Vent specifications like H1, H2, H3 are noted, likely indicating different types or sizes of air terminals. The presence of '高效数量' (High-efficiency Quantity) suggests consideration for energy efficiency in equipment or components. The room names (e.g., '洗衣' - laundry, '办公' - office, '制浆' - pulping/milling, '化验' - laboratory) indicate diverse functional areas within the facility, each with unique HVAC requirements.",
+    "The Excel spreadsheet, titled '片剂生产车间计算书.xls' (Tablet Production Workshop Calculation Book), outlines airflow parameters for various rooms. Columns include '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (High-Efficiency Quantity, possibly referring to HEPA filters or similar), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification), '回风口数量' (Return Air Outlet Quantity), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific room names such as '中转' (Transfer), '晾片' (Tablet Drying), '洗衣' (Laundry), '洁具存放' (Cleaning Tool Storage), '前室' (Anteroom), '门斗' (Airlock), '制浆' (Pulping), '化验' (Laboratory), '办公' (Office), '男更一'/'女更一' (Male/Female Changing Room 1), and '门厅' (Lobby) are listed. Air volumes are provided in numerical format, e.g., '回风量' (Return Air Volume) values like 2056, 633, 452, and '新风量' (Fresh Air Volume) / '排风量' (Exhaust Air Volume) values like 514, 158, 113, 179. '回风口规格' (Return Air Outlet Specification) uses codes like H1, H2, H3, which likely denote different types or sizes of air terminals. This data is critical for sizing air handling units, ductwork, and selecting appropriate air distribution devices for a balanced and effective HVAC system in a cleanroom or controlled environment.",
+    "The Excel spreadsheet contains critical HVAC parameters. Column headers include '房间编号' (Room Number), '房间名称' (Room Name), '高效数量' (Efficient Quantity - possibly related to high-efficiency equipment), '回风量' (Return Air Volume), '回风口规格' (Return Air Outlet Specification), '回风口数量' (Number of Return Air Outlets), '新风量' (Fresh Air Volume), '排风量' (Exhaust Air Volume), and '排风口' (Exhaust Air Outlet). Specific values like '2056' (likely m³/h or L/s for air volume), 'H3', 'H2', 'H1' (possibly diffuser types or sizes) are visible, indicating quantitative analysis of airflows. The CAD drawing appears to show zones or rooms that correspond to the entries in the Excel sheet, forming the basis for the air distribution calculations. The title '片剂生产车间计算书.xls' suggests an HVAC design for a tablet production workshop, implying strict air quality and temperature/humidity control, characteristic of cleanroom or pharmaceutical facilities.",
+    "The Excel sheet presents a detailed breakdown for HVAC design by room, including '回风量' (Return Air Volume) in units likely m³/h or L/s (e.g., 159, 443, 190, 125, 246, 499, 293 m³/h), '新风量' (Fresh Air Volume) (e.g., 40, 111, 48, 31, 62, 125, 73 m³/h), and '排风量' (Exhaust Air Volume) (e.g., 179, 706, 499 m³/h). Specific '回风口规格' (Return Air Vent Specs) such as H1, H2, H3 are noted, suggesting different types or sizes of grilles/diffusers. The bottom of the Excel sheet shows '回风口规格 风速: 2m/s' (Return Air Vent Specification Air Velocity: 2 m/s), which is a key parameter for sizing and selecting air outlets to ensure comfort and minimize noise.",
+    "The Excel sheet provides specific air volume data for various rooms within a pharmaceutical workshop. For instance, '洁具存放' (Sanitary Ware Storage) has a return air volume of 159 (unit not explicitly stated but implied to be m³/h or CFM, likely m³/h given Chinese context) and a fresh air volume of 40. '化验' (Laboratory) has a return air volume of 499 and a fresh air volume of 125, suggesting higher ventilation requirements. Exhaust air volumes are also provided, e.g., '前室' (Anteroom) has an exhaust air volume of 706. Air outlet specifications are noted as H1, H2, H3, likely referring to filter grades or diffuser types. The total fresh air volume (新风量) for the tabulated rooms sums to 1084. The bottom of the sheet mentions '回风口规格 风速: 2m/s' (Return Air Outlet Specification Air Velocity: 2m/s), which is a critical design parameter for duct sizing and air distribution. The transcript specifically mentions '质能量的一个计算' (mass-energy calculation) and '再热量的计算' (reheat calculation), indicating complex psychrometric analysis beyond simple air volume balancing.",
+    "The Excel spreadsheet, titled '制剂生产工艺车间计算书.xls' (Preparation Process Workshop Calculation Book), presents a detailed breakdown of air volumes for various rooms within a facility, likely a pharmaceutical or clean manufacturing plant. Key columns include '房间名称' (Room Name), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). Specific room types like '中转' (Transfer), '晾片' (Drying Room), '洗衣' (Laundry), '洁具存放' (Cleaning Supplies Storage), '工具存放' (Tool Storage), '前室' (Anteroom), '制浆' (Pulping), '化验' (Laboratory/Assay), and various changing rooms ('女一更', '男一更') indicate a specialized industrial setting with specific ventilation requirements. The '高效数量' (High-efficiency quantity) column might refer to high-efficiency filters or specialized equipment. Air volumes are listed numerically, for example, '中转' has a return air volume of 2056 units (likely m³/h) and a fresh air volume of 514 units. '排风口' (Exhaust Air Vent) specifications like H1, H2, H3 might denote different types or sizes of exhaust grilles/ducts. The presence of both '新风量' and '排风量' for rooms like '洁具存放' (179 Fresh, 706 Exhaust) and '前室' (499 Fresh, 499 Exhaust) points to detailed air balance considerations, potentially indicating positive or negative pressure requirements. The transcript specifically mentions '再热量的计算' (reheat calculation) which is a critical aspect of HVAC design, especially in systems requiring precise temperature and humidity control, common in cleanrooms or processing facilities.",
+    "The Excel sheet provides critical data for HVAC design, particularly for a controlled environment. Key columns include: '面积' (Area) in m² (e.g., 65.9, 20.3), '吊顶高度' (Ceiling Height) in meters (consistently 2.6 m), '体积' (Volume) in m³ (Area x Height, e.g., 65.9 m² * 2.6 m = 171.34 m³), '洁净等级' (Cleanliness Level) mostly '十万级' (Class 100,000) or '无' (None), '换气次数' (Air Change Rate) in ACH (e.g., 15 ACH or 10 ACH), and '送风量' (Supply Air Volume) in m³/h (calculated as Volume x ACH, e.g., 171 m³ * 15 ACH = 2565 m³/h, rounded to 2570). There are also '高效规格' (High-efficiency Specifications) like '10A', '7A', '5A' which likely refer to HEPA/ULPA filter grades or fan coil unit capacities, and '高效数量' (High-efficiency Quantity) which is mostly '1'. The transcript specifically mentions the calculation of '再热量' (reheat load) and the summation of '计算的风量' (calculated air volumes), indicating that the current frame focuses on determining required airflows and subsequent energy considerations for maintaining room conditions.",
+    "The Excel spreadsheet contains a detailed breakdown for various rooms, including '中转' (Transition), '晾片' (Film Drying), '洗衣' (Laundry), '洁具存放' (Sanitary Ware Storage), '工具存放' (Tool Storage), '前室' (Anteroom), '厕' (Toilet), '门斗' (Air Lock/Vestibule), '制浆' (Pulping), '化验' (Laboratory), '办公' (Office), '女更' (Female Locker Room), '男二更' (Male Locker Room 2), '男一更' (Male Locker Room 1). Each room is assigned a '洁净等级' (Cleanliness Level), predominantly '十万级' (Class 100,000 cleanroom), and a '换气次数' (Air Change Rate) of 15 ACH, with some exceptions at 10 ACH (e.g., '办公', '门厅'). '送风量' (Supply Air Volume) ranges from 179 to 2570 (units not explicitly stated but typically m³/h or CFM). '高效规格' (High-Efficiency Filter Specification) includes 10A, 7A, and 5A, with '高效数量' (Quantity) mostly 1 or 2. '回风量' (Return Air Volume) is calculated, ranging from 0 to 2056, and '回风口规格' (Return Air Filter Specification) includes H1, H2, H3 with quantities. The bottom row '合计' (Total) indicates a summation for the calculated air volumes, which is a critical step in determining the total HVAC plant capacity.",
+    "The Excel spreadsheet contains critical HVAC parameters. Column F (洁净等级) indicates cleanliness levels, predominantly '十万级' (Class 100,000) which requires stringent air filtration and change rates. Column G (换气次数) specifies the air change rate per hour, ranging from 10 to 15 ACH, typical for cleanroom applications. Column H (送风量) provides the calculated supply air volume for each room in m³/h. Column I (高效规格) likely refers to HEPA filter specifications (e.g., 10A, 7A, 5A indicating efficiency or dimensions). Column J (送风口数量) counts the number of supply air outlets. Column K (回风量) details the return air volume, and Column L (回风口规格) and M (回风口数量) specify return air grille specifications and quantities. The data shows discrepancies between supply and return air volumes in some rooms (e.g., room 26, '洁具存放', has 199 m³/h supply but 159 m³/h return, implying pressurization or exhaust). The instructor is preparing to sum these calculated '送风量' (supply air volumes), which is a crucial step for sizing the main air handling unit (AHU) and supply ductwork.",
+    "The Excel spreadsheet is a crucial part of the HVAC engineering workflow. It lists various rooms ('房间名称') and their corresponding calculated air volumes. Key columns include '送风量' (Supply Air Volume), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). The unit for these air volumes is typically cubic meters per hour (m³/h), although not explicitly stated in the visible cells. '高效规格' (High-Efficiency Specification) likely refers to the class or type of high-efficiency filters or air outlets, with '高效数量' (High-Efficiency Quantity) being the number of such devices. '回风口规格' (Return Air Outlet Specification) and '回风口数量' (Return Air Outlet Quantity) specify the types and numbers of return air grilles/diffusers. The calculation involves summing these air volumes, which is fundamental for sizing HVAC equipment like air handling units, fans, and ductwork, as well as ensuring proper room pressurization and ventilation rates, particularly critical in '净化' (purification) projects, as indicated by the file name '片剂生产工艺及净化能耗讲解' (Tablet Production Process and Purification Energy Consumption Explanation). Several rooms show specific values for supply air (e.g., '中转' - 2570, '淋浴' - 499) and return air, while some rooms (e.g., '洗衣') have zero return air, implying exhaust-only or dedicated makeup air systems.",
+    "The Excel spreadsheet clearly shows calculated air volumes for various rooms (e.g., '中场' (Middle Area) with 2570 units of supply air, '晾片' (Drying Room) with 792 units of supply air, '洗衣' (Laundry) with 566 units, '洁具存放' (Sanitary Storage) with 179 units, '工具存放' (Tool Storage) with 554 units). The units for air volume are not explicitly stated but are commonly cubic meters per hour (m³/h) or liters per second (L/s) in Chinese HVAC practice. The columns include '高效规格' (High-efficiency Specification) and '高效数量' (High-efficiency Quantity), likely referring to fan coil unit or filter specifications and count, as well as '回风口规格' (Return Air Outlet Specification) and '回风口数量' (Return Air Outlet Quantity). The instructor is about to calculate the total sum of air volumes, indicated by the '合计' (Total) row, specifically for the '送风量' (Supply Air Volume) column in cell H46. Examples of specifications include '10A' and '7A' for high-efficiency items, and 'H3', 'H2', 'H1' for return air outlets.",
+    "The Excel sheet lists various rooms (e.g., '中转' - transfer, '晾片' - drying room, '洗衣' - laundry, '洁具存放' - sanitary ware storage, '工具存放' - tool storage, '前室' - anteroom, '制浆' - pulping, '化妆' - makeup, '办公' - office, '男女一更' - male/female changing room, '门厅' - lobby). For each room, columns show: '送风量' (supply air volume) in m³/h (e.g., 2570, 792, 566, 179, 199, 706, 554, 238, 499, 176, 156, 230, 308, 624, 367, 402, 332, 320, 339, 402, 1084), '高效规格' (high-efficiency specification, e.g., 10A, 7A, 5A), '高效数量' (high-efficiency quantity, mostly 1), '回风量' (return air volume, e.g., 2056, 633, 452, 0, 159, 0, 443, 190, 0, 0, 125, 0, 246, 499, 293, 0, 265, 256, 271, 0, 0), '回风口规格' (return air vent specification, e.g., H3, H2, H1), '回风口数量' (return air vent quantity, mostly 1), '新风量' (fresh air volume, e.g., 514, 158, 113, 179, 40, 706, 111, 48, 499, 176, 31, 230, 62, 125, 73, 402, 66, 64, 68, 66, 1084), and '排风量' (exhaust air volume, e.g., 179, 706, 499, 176, 230, 402, 1084). The instructor is in the process of entering a `SUMIF` formula to calculate the total air volumes, indicated by `=su` in the formula bar and cell H46.",
+    "The Excel spreadsheet displays columns for '房间编号' (room ID), '房间名称' (room name), '送风量' (supply air volume, in an unspecified unit, but typically m³/h or L/s), '高效规格' (high-efficiency air terminal specification, e.g., '10A', '7A', '5A'), '高效数量' (quantity of high-efficiency air terminals), '回风量' (return air volume), '回风口规格' (return air grille specification, e.g., 'H3', 'H2', 'H1'), '回风口数量' (quantity of return air grilles), '新风量' (new/fresh air volume), and '排风量' (exhaust air volume). Specific values are visible, such as '中转' (transfer) having a '送风量' of 2570 and '回风量' of 2056, and '晾片' (drying room) with 792 and 633 respectively. The sum function is being prepared, indicating a calculation of total air volumes for system sizing.",
+    "The Excel spreadsheet contains a detailed breakdown of air volumes for various rooms (e.g., '中转' - transfer, '晾片' - drying, '洗衣' - laundry, '办公室' - office, '门厅' - entrance hall). Key columns include '送风量' (Supply Air Volume, units likely m³/h or L/s, though not explicitly stated but standard for HVAC), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). There are also columns for '高效规格' (High-Efficiency Specification) and '回风口规格' (Return Air Outlet Specification), likely referring to filter grades or diffuser types, e.g., '10A', '7A', '5A', 'H1', 'H2', 'H3'. The instructor is in the process of demonstrating the summation of these air volumes using the `=SUM()` function in Excel, indicating a step in calculating total air requirements for a zone or system. Individual room supply air volumes range from 156 to 2570 units (e.g., '中转' is 2570, '门厅' is 1084).",
+    "The Excel sheet presents a detailed breakdown of air volumes per room. Key columns include '送风量' (Supply Air Volume), '回风量' (Return Air Volume), '新风量' (New Air Volume), and '排风量' (Exhaust Air Volume), with specific values listed for various rooms (e.g., '制浆' - Pulping, '小走道' - Small Aisle, '贮料' - Storage, '模具存放' - Mold Storage, '外清' - External Cleaning, '囊壳中转' - Capsule Transfer, '胶囊充填' - Capsule Filling, '内包装' - Inner Packaging, '洗衣' - Laundry, '洁具存放' - Sanitary Ware Storage). The instructor is demonstrating a summation using the `SUM()` function, which is fundamental for calculating total air handling unit (AHU) capacity or total system air volume requirements by summing individual room loads.",
+    "The Excel spreadsheet shows a table with columns for '房间编号' (Room Number), '房间名称' (Room Name), '送风量' (Supply Air Volume), '高效规格' (High-efficiency Specification), '数量' (Quantity), '回风量' (Return Air Volume), '回风口规格' (Return Air Vent Specification), '回风口数量' (Return Air Vent Quantity), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). The values for '送风量' are in column H, ranging from cell H9 to H32 (e.g., 382, 909, 581, 302, 488, 449, 913, 585, 2933, 4485, 1751, 1369, 5577, 2578, 2570, 792, 566, 179, 706, 554, 238, 499, 176, 230). The instructor is in the process of calculating the sum of these supply air volumes using the Excel formula `=SUM(H2:H35)`, though the selection shown is H2:H35, the actual data starts from H9. The unit for air volume is likely m³/h or L/s, common in HVAC, but not explicitly stated on screen.",
+    "The Excel spreadsheet '生产车间计算书.xls' (Production Workshop Calculation Sheet) contains detailed air volume data for various rooms. Column H is '送风量' (Supply Air Volume), showing values such as 238, 499, 176, 156, 230, 308, 624, 367, 402, 332, 320, 339, 402, and 1084 (likely in m³/h or L/s, though units are not explicitly stated in the visible columns, standard for air volume). The instructor is about to calculate the total sum of these supply air volumes using the Excel formula '=SUM(H2:H44)'. Columns I, J, K, L, M contain information about '高效规格' (high-efficiency specifications), '高效数量' (high-efficiency quantity), '回风口规格' (return air vent specifications), and '回风口数量' (return air vent quantity). The table at the bottom shows '风口编号' (air vent number), '规格' (specifications), '额定风量' (rated air volume), '风速: 2m/s' (air velocity: 2m/s), '连管尺寸' (connection pipe size), and '回风柱尺寸' (return air column size), providing specific details like 'H1' with '300x200' spec, '324' rated air volume, and '200x160' connection pipe size.",
+    "The Excel sheet provides a detailed breakdown of air volumes for different rooms, which is critical for HVAC system design. Specifically, column H, '送风量' (Supply Air Volume), lists values in presumably m³/h (standard unit for air volume in China's HVAC industry). The total supply air volume, 39390 m³/h (cell H47), is highlighted. Other columns include '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume), alongside specifications for air outlets ('高效规格' for high-efficiency outlets and '回风口规格' for return air outlets). The data suggests a comprehensive approach to balancing airflows within a pharmaceutical production facility ('片剂生产车间计算书.xls' - Tablet Production Workshop Calculation Book). The second table provides specifications for various air outlet types, including '额定风量' (Rated Air Volume) and '连管尺寸' (Connecting Duct Size), indicating a subsequent step of component selection and ductwork design based on the calculated air volumes. The '风速: 2m/s' (Air Velocity: 2m/s) provides a design parameter for duct sizing.",
+    "The Excel sheet's '送风' (Supply Air) column lists various air volumes in m³/h (standard unit for air volume, implied by context) for different rooms: e.g., '前室' (Antechamber) 238 m³/h, '更衣' (Changing Room) 499 m³/h, '门斗' (Vestibule) 156 m³/h, '办公' (Office) 367 m³/h, and '门厅' (Lobby) 1084 m³/h. The calculation currently being demonstrated is a sum of these individual room supply air volumes, indicated by '=SUM(H?:H44)' which evaluates to 3935 m³/h (total supply air). Below, another table lists '风口规格' (Air Outlet Specifications) like '200x200' and '300x300' (mm), '风速: 2m/s' (Air Velocity), '额定风量' (Rated Air Volume) such as 216, 324, 486 m³/h, '连管尺寸' (Connection Pipe Size) e.g., 200x160mm, and '回风柱尺寸' (Return Air Column Size) e.g., 500x250mm.",
+    "The Excel sheet details various air volumes for different rooms or zones in a 'Tablet Production Process Workshop'. Key columns include '送风量' (Supply Air Volume), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). The units are implicitly m³/h or L/s, standard for air volume in HVAC, as the values are numerical. For example, '前室' (Anteroom) has a supply air volume of 238, return air of 190, and fresh air of 48. '化验' (Laboratory) has a supply air of 624. The total '送风量' (Supply Air Volume) summed from cells H30 to H44 is 39390. There are also '高效规格' (High-Efficiency Specifications) and '回风口规格' (Return Air Outlet Specifications) columns like '5A', '7A', '10A', 'H1', 'H3', which likely refer to specific diffuser types or efficiency ratings. The bottom table details '回风口规格' (Return Air Outlet Specifications) with '风速: 2m/s' (Air Velocity: 2m/s) and '额定风量' (Rated Air Volume) (e.g., 200x200 outlet with 216 rated volume, H1 (300x200) with 324 rated volume). '连管尺寸' (Connection Pipe Size) and '回风柱尺寸' (Return Air Column Size) such as '200x160' and '500x250' specify duct dimensions. The formula visible in the formula bar is '=SUM(H30:H44)', indicating a sum of supply air volumes.",
+    "The Excel sheet lists '送风量' (Supply Air Volume) for various rooms, with values ranging from 156 to 1084 (units are likely m³/h or L/s, common for air volume). The '回风量' (Return Air Volume) column also contains specific values. A cell 'K46' is highlighted, which shows a total '合计' (Sum) of '39390', strongly suggesting a summation of air volumes. The transcript confirms the use of a 'SUM' function. The AutoCAD drawing depicts a detailed floor plan with what appears to be a cleanroom or industrial facility ('片剂生产车间' - tablet production workshop), requiring precise HVAC design. The bottom right of the Excel sheet also shows data for '风口编号' (Air Grille Number), '规格' (Specification), '风速: 2m/s' (Air Velocity: 2m/s), '额定风量' (Rated Air Volume), '连管尺寸' (Connection Pipe/Duct Size), and '回风柱尺寸' (Return Air Column/Duct Size), indicating a detailed air terminal and duct sizing component.",
+    "The Excel sheet '片剂生产车间计算书.xls' (Tablet Production Workshop Calculation Book.xls) details HVAC parameters for various rooms. Columns include '送风量' (Supply Air Volume, e.g., 238, 499, 176 m³/h), '高效规格' (High-Efficiency Filter Specification, e.g., 5A, 7A, 10A), '高效数量' (High-Efficiency Filter Quantity, e.g., 1). '回风量' (Return Air Volume, e.g., 190, 0, 125 m³/h), '回风口规格' (Return Air Vent Specification, e.g., H1, H3), '回风口数量' (Return Air Vent Quantity, e.g., 1). '新风量' (Fresh Air Volume, e.g., 48, 499, 31 m³/h) and '排风量' (Exhaust Air Volume, e.g., 499, 176 m³/h) are also present. The formula bar shows `=SUM(K2:K44)`, indicating a summation calculation is being performed for cells in column K (Return Air Volume or a related quantity). A sub-table shows '风口编号' (Vent No.), '规格' (Specification), '额定风量' (Rated Air Volume), '连管尺寸' (Connection Duct Size, e.g., 200x160), and '回风柱尺寸' (Return Air Column Size, e.g., 500x250), with '风速: 2m/s' (Air velocity: 2m/s) specified. The total sum '合计' (Total) for an unspecified column (likely supply air) is '39390'. The highlighted cell K46 contains '1731', which is the result of the SUM formula.",
+    "The Excel spreadsheet is performing a summation of return air volume ('回风量') from cell K2 to K44, resulting in a total of 17311 (likely m³/h given typical HVAC units). Column '送风量' (Supply Air Volume) ranges from 156 to 1084 (m³/h), and '回风量' (Return Air Volume) shows values from 0 to 499 (m³/h). The '高效规格' (High-Efficiency Specification) column includes values like '5A', '7A', '10A', which could refer to filter efficiency ratings or air outlet specifications. '风口编号' (Air Outlet No.) and '回风口规格' (Return Air Outlet Specification) are listed (e.g., 'H1', 'H3'). Air speed is specified as '风速: 2m/s'. Duct sizes like '200x160' and '500x250' are visible, along with '额定风量' (Rated Air Volume) for specific air terminals (e.g., 216 and 324 m³/h). The overall calculation aims to aggregate total air volumes for system design.",
+    "The Excel sheet is calculating air volumes for various rooms (e.g., '前室' - anteroom, '门斗' - vestibule, '制浆' - pulping/mashing room, '化验' - lab, '办公' - office, '更衣' - changing room, '门厅' - lobby). Columns include '送风量' (Supply Air Volume), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). The formula bar shows `=SUM(K29:K44)`, indicating a summation of return air volumes for the listed rooms. The calculated total for '回风量' (Return Air Volume) in cell K46 is 17311. Specific supply air volumes are listed, ranging from 156 to 1084 (units are implicitly m³/h or L/s, commonly used in HVAC). '高效规格' (High-efficiency specification) indicates ratings like '5A', '7A', '10A', possibly relating to filter efficiency or air purification grades, which is critical for cleanroom applications. '回风口规格' (Return air vent specification) shows 'H1' or 'H3' type, and '风速' (Air speed) is given as 2m/s for specific vents in a separate table. Duct dimensions are also listed, e.g., '200x160' for supply ducts and '500x250' for return air shafts.",
+    "The Excel spreadsheet displays a breakdown of HVAC air volumes per room in a '片材生产车间' (Sheet Production Workshop). Key columns include '送风量' (Supply Air Volume), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume). The units are implicitly m³/h, which is standard for air volume in HVAC in China. Specific room volumes are listed, for example, '操作间' (Operation Room) with 499 m³ of supply air and fresh air, and '化验' (Laboratory) with 624 m³ supply air and 125 m³ fresh air. The total supply air volume, calculated by `=SUM(H30:H44)`, is 39390 (m³/h). There are also specifications for '高效规格' (High-efficiency Specifications), likely related to filters or air outlets (e.g., '7A', '5A', '10A'), and corresponding '数量' (Quantity). A section for air outlet specifications includes '风速: 2m/s' (Air velocity: 2m/s), '额定风量' (Rated Air Volume), '连管尺寸' (Connection Duct Size), and '回风柱尺寸' (Return Air Column Size), showing values like 200x160 and 500x250, likely in mm.",
+    "The Excel sheet '片剂生产车间计算书.xls' details HVAC parameters for a tablet production workshop. It includes a table (rows 29-43) with '房间编号' (Room No.), '房间名称' (Room Name) like '前室' (Anteroom), '更衣' (Changing Room), '化验' (Laboratory), '办公' (Office), '门厅' (Lobby), '送风量' (Supply Air Volume) in m³/h (values from 156 to 1084), '高效规格' (High-efficiency Specification) such as '5A', '7A', '10A', and '数量' (Quantity) typically '1'. A '合计' (Total) row shows a sum of '39390', likely the total supply air volume. Another table (rows 52-55) specifies '风口编号' (Air Grille No.), '规格' (Specification, e.g., '200x', '300x'), '风速' (Air Speed) as '2m/s', '额定风量' (Rated Air Volume, e.g., 216, 324, 486 m³/h), '连接管尺寸' (Connection Duct Size, e.g., '200x160', '200x200'), and '回风柱尺寸' (Return Air Column Size, e.g., '500x250', '600x300'). The CAD drawing likely represents the floor plan where these air volumes and duct designs are implemented.",
+    "The Excel sheet details various HVAC parameters for different rooms ('房间名称') within a facility, likely a tablet production workshop ('片剂生产车间'). Key columns include '送风量' (Supply Air Volume), '回风量' (Return Air Volume), '新风量' (Fresh Air Volume), and '排风量' (Exhaust Air Volume), all measured in m³/h (standard unit for air volume, though not explicitly shown, it's implied in HVAC). '高效规格' (High-Efficiency Specification) likely refers to HEPA filter grades or fan coil unit specifications. '回风口规格' (Return Air Vent Specification) and '数量' (Quantity) are also listed. The formula bar shows `=SUM(N2:N44)`, indicating a summation of values from cell N2 to N44, which corresponds to the '新风量' (Fresh Air Volume) column, totaling 22079. There's also a '风口编号' (Air Vent Number) table, specifying '规格' (Specification), '额定风量' (Rated Air Volume), '连管尺寸' (Connection Pipe Size), and '回风柱尺寸' (Return Air Pillar Size) for various air vents (e.g., H1, H2), demonstrating air terminal unit selection and duct connection details. For instance, an H1 return air vent has an '额定风量' of 324 m³/h with a '连管尺寸' of 200x160 and a '回风柱尺寸' of 500x250.",
+    "The Excel spreadsheet contains critical HVAC parameters. Column N (新风量 - New Air Volume/Fresh Air Volume) shows values like 499, 176, 230, 125, 73, 402, 66, 64, 68, 66, 402, all likely in m³/h or L/s based on common HVAC practices. The formula bar indicates `=SUM(N2:N44)`, calculating a total 'New Air Volume' of 22079 (presumably m³/h or L/s). Column K (回风量 - Return Air Volume) and O (排风量 - Exhaust Air Volume) are also present. Column L and P specify '回风口规格' (Return Air Outlet Specification) and '排风口' (Exhaust Air Outlet), showing types like H1, H2, H3. A table at the bottom suggests '风速: 2m/s' (Air velocity: 2m/s) with '额定风量' (Rated Air Volume), '连管尺寸' (Connection Pipe Size), and '回风柱尺寸' (Return Air Column Size), providing values like 216, 324, 486 (rated air volume), and dimensions like 200x160, 500x250, 200x200, 600x300 (likely in mm). The AutoCAD drawing shows a building layout, indicating areas that might correspond to the '房间名称' (Room Name) in the Excel sheet.",
+    "The Excel sheet '片剂生产车间计算书.xls' (Tablet Production Workshop Calculation Book) displays critical HVAC parameters. Column '回风量' (Return Air Volume) shows values like 190, 125, 246 m³/h, totaling 17311 m³/h. Column '新风量' (Fresh Air Volume) shows values such as 48, 499, 176 m³/h, summing to 22079 m³/h. Column '排风量' (Exhaust Air Volume) includes values like 499, 176, 230 m³/h, and totals 16667 m³/h. Duct specifications are also listed, such as 'H1' and 'H3' for return and exhaust air outlets. A formula `=SUM(O2:O44)` is visible in the formula bar, suggesting that the value 16667 m³/h in cell O46 is the sum of exhaust air volumes. Below, a table illustrates the relationship between '风速: 2m/s' (Air velocity: 2m/s), '额定风量' (Rated air volume) (e.g., 216, 324, 486 m³/h), '连管尺寸' (Connection duct size) (e.g., 200x160, 200x200 mm), and '回风柱尺寸' (Return air column size) (e.g., 500x250, 600x300 mm), which are crucial for duct sizing."
+  ]
+}

@@ -1,17 +1,16 @@
 """
 ai_service.py
-Wraps OpenAI GPT-4o Vision + text-embedding-3-small.
+Wraps OpenAI GPT-4o Vision + text-embedding-3-small, with optional Gemini Vision.
 
-Responsibilities:
-- Analyze a video segment (frame image + transcript) → structured description
-- Generate embeddings for search indexing / query
-- Extract ordered instruction steps from the full segment list
+Set VISION_PROVIDER=gemini in .env to use Gemini for deeper frame analysis.
+Embeddings always use OpenAI text-embedding-3-small.
 """
 import os
 import uuid
 import base64
 import asyncio
 import json
+import requests as _requests
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
@@ -23,17 +22,28 @@ STORAGE_DIR = Path(os.getenv("STORAGE_DIR", "./storage"))
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "text-embedding-3-small")
 EMBED_DIM = int(os.getenv("EMBED_DIM", "1536"))
-VISION_BATCH_SIZE = int(os.getenv("VISION_BATCH_SIZE", "1"))  # frames per GPT-4o call
+VISION_BATCH_SIZE = int(os.getenv("VISION_BATCH_SIZE", "1"))
+
+VISION_PROVIDER = os.getenv("VISION_PROVIDER", "openai").lower()  # "openai" or "gemini"
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_URL = (
+    "https://generativelanguage.googleapis.com/v1beta/models/"
+    f"{GEMINI_MODEL}:generateContent"
+)
 
 _client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"), timeout=60.0)
 _executor = ThreadPoolExecutor(max_workers=4)
 
 
-def _load_image_b64(relative_url: str) -> str:
-    """Convert /video-files/{video_id}/frames/{fname} → base64 string for GPT-4o."""
+def _frame_local_path(relative_url: str) -> Path:
+    """Convert /video-files/{video_id}/frames/{fname} → local Path."""
     parts = relative_url.lstrip("/").split("/")
-    local_path = STORAGE_DIR / "videos" / parts[1] / parts[2] / parts[3]
-    with open(str(local_path), "rb") as f:
+    return STORAGE_DIR / "videos" / parts[1] / parts[2] / parts[3]
+
+def _load_image_b64(relative_url: str) -> str:
+    """Load frame as base64 string for GPT-4o."""
+    with open(str(_frame_local_path(relative_url)), "rb") as f:
         return base64.b64encode(f.read()).decode()
 
 
@@ -58,6 +68,27 @@ Given a video frame (image) and the spoken transcript at that moment, respond wi
   "actions": ["<list of actions being performed or demonstrated>"]
 }
 Be concise and specific. Focus on educational content."""
+
+_GEMINI_SEGMENT_PROMPT = """You are a technical expert analyzing a frame from a tutorial or instructional video.
+
+Given the video frame image and the spoken transcript below, provide a DEEP and COMPREHENSIVE analysis.
+
+Transcript at this moment: "{transcript}"
+
+Respond ONLY with valid JSON in this exact structure:
+{{
+  "description": "<2-4 sentence detailed visual description of what is shown>",
+  "scene_type": "<overview|close-up|demo|diagram|text-slide|transition|setup|result>",
+  "objects": ["<every visible object, tool, material, equipment, ingredient>"],
+  "actions": ["<all actions being performed or demonstrated>"],
+  "text_on_screen": ["<any visible text, labels, measurements, captions, subtitles>"],
+  "key_concepts": ["<educational or technical concepts being demonstrated>"],
+  "technical_details": "<specific technical information: measurements, temperatures, quantities, settings, material properties, techniques>",
+  "step_context": "<beginning|middle|end|standalone — where in a step sequence this frame appears>",
+  "instructor_notes": "<what an expert instructor would highlight about this specific moment>"
+}}
+
+Be thorough and precise. Prioritize technical accuracy and educational value."""
 
 _BATCH_SYSTEM = """You are analyzing multiple frames from a tutorial/instructional video in sequence.
 Each frame is labeled [Frame N at Xs] with its transcript.
@@ -95,10 +126,112 @@ Merge closely related actions into one step. Typically 3-15 steps for a tutorial
 
 class AIService:
 
+    async def _analyze_with_gemini(
+        self, item: AlignedSegment, responses_dir: Path = None
+    ) -> VideoSegment:
+        """Use Gemini Vision (REST API) for deep frame analysis."""
+        prompt = _GEMINI_SEGMENT_PROMPT.format(transcript=item.transcript)
+        raw_response = ""
+        data = {}
+        usage = {}
+
+        def _call_gemini_rest():
+            img_b64 = _load_image_b64(item.frame.file_path)
+            payload = {
+                "contents": [{
+                    "parts": [
+                        {"text": prompt},
+                        {"inline_data": {"mime_type": "image/jpeg", "data": img_b64}},
+                    ]
+                }],
+                "generationConfig": {
+                    "responseMimeType": "application/json",
+                    "maxOutputTokens": 8192,
+                    "temperature": 1.0,
+                    "thinkingConfig": {"thinkingBudget": 512},
+                },
+            }
+            resp = _requests.post(
+                GEMINI_API_URL, json=payload,
+                params={"key": GEMINI_API_KEY}, timeout=90,
+            )
+            resp.raise_for_status()
+            return resp.json()
+
+        try:
+            loop = asyncio.get_event_loop()
+            body = await asyncio.wait_for(
+                loop.run_in_executor(_executor, _call_gemini_rest),
+                timeout=100.0,
+            )
+            raw_response = body["candidates"][0]["content"]["parts"][0]["text"]
+            data = json.loads(raw_response)
+            um = body.get("usageMetadata", {})
+            usage = {
+                "prompt_tokens": um.get("promptTokenCount", 0),
+                "completion_tokens": um.get("candidatesTokenCount", 0),
+                "total_tokens": um.get("totalTokenCount", 0),
+            }
+        except Exception as e:
+            data = {
+                "description": f"[Gemini analysis failed: {e}]",
+                "scene_type": "unknown",
+                "objects": [],
+                "actions": [],
+                "text_on_screen": [],
+                "key_concepts": [],
+                "technical_details": "",
+                "step_context": "unknown",
+                "instructor_notes": "",
+            }
+            raw_response = str(e)
+            print(f"[gemini] frame {item.frame.frame_number} failed: {e}", flush=True)
+
+        _save_api_log(responses_dir, f"frame_{item.frame.frame_number:06d}.json", {
+            "type": "gemini_vision",
+            "model": GEMINI_MODEL,
+            "frame_number": item.frame.frame_number,
+            "timestamp": item.frame.timestamp,
+            "thumbnail_path": item.frame.thumbnail_path,
+            "transcript": item.transcript,
+            "raw_response": raw_response,
+            "parsed": data,
+            "usage": usage,
+        })
+
+        # Build enriched combined_text for better search coverage
+        parts = [item.transcript, data.get("description", "")]
+        if data.get("technical_details"):
+            parts.append(data["technical_details"])
+        if data.get("key_concepts"):
+            parts.append(" ".join(data["key_concepts"]))
+        if data.get("text_on_screen"):
+            parts.append(" ".join(data["text_on_screen"]))
+        combined = " ".join(p for p in parts if p)
+
+        embedding = await self.embed_text(combined)
+        return VideoSegment(
+            segment_id=str(uuid.uuid4()),
+            video_id="",
+            frame_number=item.frame.frame_number,
+            timestamp=item.frame.timestamp,
+            thumbnail_path=item.frame.thumbnail_path,
+            transcript=item.transcript,
+            description=data.get("description", ""),
+            combined_text=combined,
+            objects=data.get("objects", []),
+            actions=data.get("actions", []),
+            scene_type=data.get("scene_type", ""),
+            embedding=embedding,
+        )
+
     async def analyze_segments_batch(
         self, items: list[AlignedSegment], responses_dir: Path = None
     ) -> list[VideoSegment]:
-        """Send VISION_BATCH_SIZE frames in one GPT-4o call, return one VideoSegment per frame."""
+        """Route to Gemini or GPT-4o based on VISION_PROVIDER env var."""
+        if VISION_PROVIDER == "gemini":
+            # Gemini is always single-frame (richer prompt per frame)
+            return [await self._analyze_with_gemini(items[0], responses_dir)]
         if VISION_BATCH_SIZE == 1 or len(items) == 1:
             return [await self.analyze_segment(items[0], responses_dir)]
 

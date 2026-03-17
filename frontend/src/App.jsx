@@ -19,13 +19,11 @@ export default function App() {
   const [reindexing, setReindexing] = useState(false);
 
   // Refresh vector count whenever selected video changes or library refreshes
-  const [embeddingsReady, setEmbeddingsReady] = useState(false);
-
   useEffect(() => {
-    if (!selectedVideo?.video_id) { setVectorCount(null); setEmbeddingsReady(false); return; }
+    if (!selectedVideo?.video_id) { setVectorCount(null); return; }
     getVideoStats(selectedVideo.video_id)
-      .then(r => { setVectorCount(r.data.vectors_in_chroma); setEmbeddingsReady(r.data.embeddings_ready || false); })
-      .catch(() => { setVectorCount(0); setEmbeddingsReady(false); });
+      .then(r => setVectorCount(r.data.vectors_in_chroma ?? 0))
+      .catch(() => setVectorCount(0));
   }, [selectedVideo?.video_id, libRefresh]);
 
   const handleReindex = async () => {
@@ -98,7 +96,7 @@ export default function App() {
             loading={searchLoading}
             disabled={false}
             vectorCount={vectorCount}
-            onReindex={selectedVideo?.video_id && embeddingsReady ? handleReindex : null}
+            onReindex={selectedVideo?.video_id ? handleReindex : null}
             reindexing={reindexing}
           />
 

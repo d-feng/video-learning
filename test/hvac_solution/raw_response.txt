@@ -1,0 +1,198 @@
+---
+
+### SECTION 1: WORKFLOW ANALYSIS
+
+**1. Overview: HVAC Design Process**
+- **Observation:** The workflow involves detailed HVAC design for a controlled environment, such as a tablet production workshop, using AutoCAD for spatial layout and Excel for calculations.
+- **Tools:** AutoCAD, Excel (`片剂生产车间计算书.xls`).
+- **Output:** Comprehensive HVAC design, including air volume specifications and equipment layout.
+
+**2. Room and Zone Definition**
+- **What is done:** Define rooms and corresponding zones within the workshop.
+- **Tools/Data:** Excel columns like '房间编号' (Room Number) and '房间名称' (Room Name).
+- **Output:** Structured list of rooms with associated HVAC parameters.
+
+**3. Calculate Air Volumes**
+- **What is done:** Calculate Supply Air Volume (SAV), Return Air Volume (RAV), Fresh Air Volume (FAV), and Exhaust Air Volume (EAV) for each room.
+- **Tools/Data:** Excel formulas using readings from psychrometric charts.
+- **Columns:** '送风量' (SAV), '回风量' (RAV), '新风量' (FAV), '排风量' (EAV).
+- **Output:** Quantified air volume requirements for HVAC system design.
+
+**4. System Component Specification**
+- **What is done:** Specify air handling components including filters and grilles.
+- **Tools/Data:** '高效规格' (High-Efficiency Specification), '回风口规格' (Return Air Vent Specification).
+- **Output:** Detailed specifications for components like HEPA filters and diffusers.
+
+**5. Air Balance and Validation**
+- **What is done:** Validate calculated air volumes against building requirements and perform air balance.
+- **Tools/Data:** Excel formulas (e.g., `SUM()` for adding volumes, '合计' for totals).
+- **Output:** Balanced air volumes ensuring compliance with ventilation standards.
+
+**6. Equipment and Duct Sizing**
+- **What is done:** Determine sizes for air handlers, ducts, and diffusers.
+- **Tools/Data:** Calculated air volumes, '风速: 2m/s' (Air Velocity), '额定风量' (Rated Air Volume), duct sizes.
+- **Output:** Duct and equipment specifications, ensuring adequate airflow to all zones.
+
+---
+
+### SECTION 2: AUTOMATION TOOL DESIGN
+
+**1. Module Breakdown**
+
+```python
+import pandas as pd
+from dataclasses import dataclass
+from typing import TypedDict, List
+
+# Dataclass Tasks
+@dataclass
+class Room:
+    number: str
+    name: str
+    efficiency_spec: str
+    eff_quantity: int
+    supply_air_volume: float
+    return_air_volume: float
+    fresh_air_volume: float
+    exhaust_air_volume: float
+
+# TypedDict Tasks
+class ZoneDict(TypedDict):
+    zone_name: str
+    sav: float
+    rav: float
+    fav: float
+    eav: float
+
+def calculate_air_volumes(room_data: pd.DataFrame) -> List[Room]:
+    """Calculates various air volumes for each room."""
+    pass  # Implementation here
+
+def select_terminal(air_volume: float) -> str:
+    """Determines the terminal type (H1, H2, H3) based on air volume thresholds."""
+    if air_volume <= 200:
+        return 'H1'
+    elif air_volume <= 400:
+        return 'H2'
+    else:
+        return 'H3'
+
+def validate_air_balance(room_list: List[Room]) -> bool:
+    """Validates air balance across rooms."""
+    pass  # Implementation here
+
+def generate_report(room_list: List[Room]) -> None:
+    """Generates a report from the finalized data."""
+    pass  # Implementation here
+```
+
+**2. Data Models**
+
+- **Room:** Encapsulates room-specific data like number, name, supply air volume, etc.
+- **ZoneDict:** Captures air volumes for aggregation at the zone level.
+
+**3. Calculations & Formulas**
+
+- **Core Calculation:** `Supply Air Volume = Room Volume × Air Change Rate`
+- **Terminal Selection:** 
+  - H1 if SAV/RAV/FAV is <= 200
+  - H2 between 200 and 400
+  - H3 > 400
+- **Air Balance Equation:** Validate `SAV = RAV + FAV`
+
+**4. Input/Output Specification**
+
+- **Input:** Excel (`片剂生产车间计算书.xls`) with columns for room parameters ['房间编号', '送风量', '回风量', etc.].
+- **Output:** Modified Excel with validated columns and a summary report.
+
+---
+
+### SECTION 3: PYTHON IMPLEMENTATION
+
+```python
+import pandas as pd
+from dataclasses import dataclass
+from typing import List, TypedDict
+
+# Dataclass Definitions
+@dataclass
+class Room:
+    number: str
+    name: str
+    efficiency_spec: str
+    eff_quantity: int
+    supply_air_volume: float
+    return_air_volume: float
+    fresh_air_volume: float
+    exhaust_air_volume: float
+
+class ZoneDict(TypedDict):
+    zone_name: str
+    sav: float
+    rav: float
+    fav: float
+    eav: float
+
+def calculate_air_volumes(room_data: pd.DataFrame) -> List[Room]:
+    room_list = []
+    for _, row in room_data.iterrows():
+        room = Room(
+            number=row['房间编号'],
+            name=row['房间名称'],
+            efficiency_spec=row['高效规格'],
+            eff_quantity=row['高效数量'],
+            supply_air_volume=row['送风量'],
+            return_air_volume=row['回风量'],
+            fresh_air_volume=row['新风量'],
+            exhaust_air_volume=row['排风量']
+        )
+        room_list.append(room)
+    return room_list
+
+def select_terminal(air_volume: float) -> str:
+    """Determines the terminal type (H1, H2, H3) based on air volume thresholds."""
+    if air_volume <= 200:
+        return 'H1'
+    elif air_volume <= 400:
+        return 'H2'
+    else:
+        return 'H3'
+
+def validate_air_balance(room_list: List[Room]) -> bool:
+    """Validates air balance across rooms."""
+    for room in room_list:
+        if not abs(room.supply_air_volume - (room.return_air_volume + room.fresh_air_volume + room.exhaust_air_volume)) < 1e-5:
+            print(f"Air balance error in room {room.number}: SAV-{room.supply_air_volume}, RAV+FAV+EAV-{room.return_air_volume + room.fresh_air_volume + room.exhaust_air_volume}")
+            return False
+    return True
+
+def generate_report(room_list: List[Room]) -> None:
+    """Generates a report from the finalized data."""
+    print("HVAC Design Report")
+    print("===================")
+    for room in room_list:
+        print(f"Room {room.number}: {room.name}, SAV {room.supply_air_volume}, Terminals: {select_terminal(room.supply_air_volume)}")
+    print("===================")
+
+def main(input_excel: str, output_excel: str):
+    df = pd.read_excel(input_excel, engine='openpyxl')
+    room_data = df[['房间编号', '房间名称', '高效规格', '高效数量', '送风量', '回风量', '新风量', '排风量']]
+    room_list = calculate_air_volumes(room_data)
+    
+    # Validate Air Balance
+    balanced = validate_air_balance(room_list)
+    if not balanced:
+        print("Air balance validation failed.")
+
+    # Generate Report
+    generate_report(room_list)
+
+    # Write finalized room_list back to Excel
+    df['Terminal'] = [select_terminal(room.supply_air_volume) for room in room_list]
+    df.to_excel(output_excel, index=False, engine='openpyxl')
+
+if __name__ == "__main__":
+    main('path/to/input/片剂生产车间计算书.xlsx', 'path/to/output/processed_HVAC_schedule.xlsx')
+```
+
+This Python application leverages pandas for Excel I/O operations and encapsulates HVAC design logic for a tablet production workshop layout. It calculates and validates air volumes and selects terminal types based on specified thresholds, producing a report while updating the Excel worksheet with calculated data for comprehensive HVAC system scheduling.
